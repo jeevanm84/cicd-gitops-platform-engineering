@@ -10,7 +10,7 @@
 ## Control flow
 
 ```mermaid
-flowchart LR
+flowchart TB
   Developer --> PR[Pull request]
   PR --> CI[Build and verification]
   CI --> Evidence[Immutable release evidence]
@@ -45,4 +45,3 @@ Git preserves desired-state history; the registry preserves immutable artifacts 
 ## Trade-offs
 
 Promotion speed is intentionally reduced by evidence and approval gates. That cost buys repeatability and auditability. Emergency access should be time-limited, logged, reviewed after use, and unable to replace immutable evidence.
-
