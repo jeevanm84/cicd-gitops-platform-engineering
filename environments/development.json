@@ -1,0 +1,7 @@
+{
+  "name": "development",
+  "promotion_source": null,
+  "approval_required": false,
+  "deployment_strategy": "rolling"
+}
+

@@ -1,0 +1,23 @@
+{
+  "policy_version": 1,
+  "required_release_fields": [
+    "schema_version",
+    "release_id",
+    "app_version",
+    "source_commit",
+    "artifact",
+    "evidence"
+  ],
+  "required_evidence": [
+    "unit_tests",
+    "static_analysis",
+    "dependency_scan",
+    "container_scan",
+    "policy_check"
+  ],
+  "production": {
+    "approval_required": true,
+    "minimum_previous_environment": "staging"
+  }
+}
+

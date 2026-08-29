@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "release_id": "delivery-demo-1.0.0",
+  "app_version": "1.0.0",
+  "source_commit": "1111111111111111111111111111111111111111",
+  "artifact": {
+    "image": "ghcr.io/jeevanm84/delivery-demo@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "sbom": "oci://ghcr.io/jeevanm84/delivery-demo:1.0.0.sbom",
+    "signature_verified": true
+  },
+  "evidence": {
+    "unit_tests": "passed",
+    "static_analysis": "passed",
+    "dependency_scan": "passed",
+    "container_scan": "passed",
+    "policy_check": "passed"
+  }
+}
+

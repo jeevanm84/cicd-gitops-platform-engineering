@@ -1,0 +1,7 @@
+{
+  "name": "production",
+  "promotion_source": "staging",
+  "approval_required": true,
+  "deployment_strategy": "canary-with-automatic-analysis"
+}
+

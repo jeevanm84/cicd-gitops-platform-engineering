@@ -1,0 +1,7 @@
+{
+  "name": "staging",
+  "promotion_source": "development",
+  "approval_required": false,
+  "deployment_strategy": "rolling"
+}
+
